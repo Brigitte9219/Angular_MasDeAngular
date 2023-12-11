@@ -14,3 +14,9 @@
 
 <button type="button" class="btn btn-info" (click)="alerta='alert-info'">Info</button>
 <button type="button" class="btn btn-success" (click)="alerta='alert-success'">Success</button>
+
+<br><br>
+<!--Cambia el color del texto en caso de ser verdadero-->
+<h3 [ngClass]=" {'text-danger':false}" >
+Hola Mundo
+</h3>

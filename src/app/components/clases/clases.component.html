@@ -1,0 +1,16 @@
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+
+<div class="alert alert-success" role="alert">
+  A simple success alert—check it out!
+</div>
+
+
+<!--Dependiendo de la propiedad alerta, si se da clic en el boton cambia-->
+<div [ngClass]="alerta" class="alert" role="alert">
+  A simple success alert—check it out!
+</div>
+
+<button type="button" class="btn btn-info" (click)="alerta='alert-info'">Info</button>
+<button type="button" class="btn btn-success" (click)="alerta='alert-success'">Success</button>

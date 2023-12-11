@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgStyleComponent } from './components/ng-style/ng-style.component';
 import { ClasesComponent } from './components/clases/clases.component';
+import { ResaltadoDirective } from './directives/resaltado.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponent,
-    ClasesComponent
+    ClasesComponent,
+    ResaltadoDirective
   ],
   imports: [
     BrowserModule,
